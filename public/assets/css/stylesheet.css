@@ -1,0 +1,31 @@
+/* IMPORT MY PERSONAL FONTS */
+@import url(./myFont.css);
+
+
+/* ------------- Custom Style ------------- */
+/* ---- SIGN-IN ---- */
+@import url(./sign-in.css);
+
+/* ---- COVER ---- */
+/* @import url(./cover.css); */
+
+/* ---- Navbar Offcanvas ---- */
+@import url(./navbars-offcanvas.css);
+
+/* ---- Modals ---- */
+@import url(./modals.css);
+
+
+/* 
+* To TEST a theory:
+* Lets Move all CSS, IMG and JS Folders to the APP folder
+* And then, Import them all respectively.
+***
+* We'll need to research the IMPORT code for JS files
+* As well as create a GLOBAL Variable for the new Path
+* So that the IMAGES & Files would redirect correctly
+* *
+*/
+
+
+/* ------------ ./Custom Style ------------ */

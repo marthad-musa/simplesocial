@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/* Webfonts */
+@font-face{font-family: Advertising; src: url(myFonts/AdvertisingBold.ttf);}
+@font-face{font-family: Agency; src: url(myFonts/AGENCYB.TTF);}
+@font-face{font-family: AlbertusXB; src: url(myFonts/AlbertusExtraBold_0.TTF);}
+@font-face{font-family: Algerian; src: url(myFonts/ALGER.TTF);}
+@font-face{font-family: Alido; src: url(myFonts/Alido.otf);}
+@font-face{font-family: BankGothic; src: url(myFonts/BNKGOTHM_0.TTF);}
+@font-face{font-family: Beirut; src: url(myFonts/HacenBeirut.ttf);}
+@font-face{font-family: Casablanca; src: url(myFonts/HacenCasablanca.ttf);}
+@font-face{font-family: Caslon; src: url(myFonts/tt0443m.ttf);}
+@font-face{font-family: Casper; src: url(myFonts/caadl.ttf);}
+@font-face{font-family: Clarity; src: url(myFonts/cleg.ttf);}
+@font-face{font-family: Commerce; src: url(myFonts/city.ttf);}
+@font-face{font-family: Cooper; src: url(myFonts/COOPBL.TTF);}
+@font-face{font-family: Crevil; src: url(myFonts/CrevilBlack.otf);}
+@font-face{font-family: Dalal; src: url(myFonts/HacenDalal.ttf);}
+@font-face{font-family: DigitalArabia; src: url(myFonts/HacenDigitalArabiaXL.ttf);}
+@font-face{font-family: Dubai; src: url(myFonts/SC_DUBAI.ttf);}
+@font-face{font-family: Dunkirk; src: url(myFonts/Dunkirk.otf);}
+@font-face{font-family: Durion; src: url(myFonts/Durion.otf);}
+@font-face{font-family: Eamon; src: url(myFonts/Eamon.otf);}
+@font-face{font-family: Egypt; src: url(myFonts/HacenEgypt.ttf);}
+@font-face{font-family: Estelle; src: url(myFonts/este.ttf);}
+@font-face{font-family: Extender; src: url(myFonts/HacenExtender.ttf);}
+@font-face{font-family: Ferris; src: url(myFonts/Ferris.otf);}
+@font-face{font-family: Findley; src: url(myFonts/Findley.otf);}
+@font-face{font-family: Freehand; src: url(myFonts/TT1043M.TTF);}
+@font-face{font-family: Halifax; src: url(myFonts/Halifax.otf);}
+@font-face{font-family: Harngton; src: url(myFonts/HARNGTON.TTF);}
+@font-face{font-family: Henzo; src: url(myFonts/Henzo.otf);}
+@font-face{font-family: Jordan; src: url(myFonts/HacenJordan.ttf);}
+@font-face{font-family: Jokerman; src: url(myFonts/JOKERMAN.TTF);}
+@font-face{font-family: Krist; src: url(myFonts/ITCKRIST.TTF);}
+@font-face{font-family: Lebanon; src: url(myFonts/HacenLebanon.ttf);}
+@font-face{font-family: LinerPrint; src: url(myFonts/HacenLinerPrint-out.ttf);}
+@font-face{font-family: LinerXL; src: url(myFonts/HacenLinerXL.ttf);}
+@font-face{font-family: LoopI; src: url(myFonts/Loopi.otf);}
+@font-face{font-family: LucindaH; src: url(myFonts/LHANDW.TTF);}
+@font-face{font-family: Olcen; src: url(myFonts/Olcen.otf);}
+@font-face{font-family: OldEnglish; src: url(myFonts/OLDENGL.TTF);}
+@font-face{font-family: Pald; src: url(myFonts/pald.ttf);}
+@font-face{font-family: Pristina; src: url(myFonts/PRISTINA.TTF);}
+@font-face{font-family: Qatar; src: url(myFonts/HacenQatar.ttf);}
+@font-face{font-family: Radzad; src: url(myFonts/radzad.ttf);}
+@font-face{font-family: Rage; src: url(myFonts/RAGE.TTF);}
+@font-face{font-family: Sahafa; src: url(myFonts/HacenSahafa.ttf);}
+@font-face{font-family: Samra; src: url(myFonts/HacenSamra.ttf);}
+@font-face{font-family: Sprn; src: url(myFonts/sprn.ttf);}
+@font-face{font-family: Tehran; src: url(myFonts/HacenTehran.ttf);}
+@font-face{font-family: Tunisia; src: url(myFonts/HacenTunisia.ttf);}
+@font-face{font-family: TypographerHv; src: url(myFonts/HacenTypographerHeavy.ttf);}
+@font-face{font-family: Ultra; src: url(myFonts/corn.ttf);}
+@font-face{font-family: Vanilla; src: url(myFonts/HacenVanilla.ttf);}
+@font-face{font-family: Wedding; src: url(myFonts/TT0985M.TTF);}
+@font-face{font-family: Yangtze; src: url(myFonts/Yangtze.otf);}
+@font-face{font-family: Zolano; src: url(myFonts/Zolsab_.ttf);}
+
+/* Webfont Classes */
+.fontAdvertising { font-family: Advertising !important;}
+
+.fontAgency { font-family: Agency !important;}
+
+.fontAlbert { font-family: AlbertusXB !important;}
+
+.fontAlgerian { font-family: Algerian !important;}
+
+.fontAlido { font-family: Alido !important;}
+
+.fontBank { font-family: BankGothic !important;}
+
+.fontBeirut { font-family: Beirut !important;}
+
+.fontCasablanca { font-family: Casablanca !important;}
+
+.fontCaslon { font-family: Caslon !important;}
+
+.fontCasper { font-family: Casper !important;}
+
+.fontClarity { font-family: Clarity !important;}
+
+.fontCommerce { font-family: Commerce !important;}
+
+.fontCooper { font-family: Cooper !important;}
+
+.fontCrevil { font-family: Crevil !important;}
+
+.fontDalal { font-family: Dalal !important;}
+
+.fontDigital { font-family: DigitalArabia !important;}
+
+.fontDubai { font-family: Dubai !important;}
+
+.fontDunkirk { font-family: Dunkirk !important;}
+
+.fontDurion { font-family: Durion !important;}
+
+.fontEamon { font-family: Eamon !important;}
+
+.fontEgypt { font-family: Egypt !important;}
+
+.fontEstelle { font-family: Estelle !important;}
+
+.fontExtender { font-family: Extender !important;}
+
+.fontFerris { font-family: Ferris !important;}
+
+.fontFindley { font-family: Findley !important;}
+
+.fontFreehand { font-family: Freehand !important;}
+
+.fontHalifax { font-family: Halifax !important;}
+
+.fontHarngton { font-family: Harngton !important;}
+
+.fontHenzo { font-family: Henzo !important;}
+
+.fontKrist { font-family: Krist !important;}
+
+.fontJokerman { font-family: Jokerman !important;}
+
+.fontJordan { font-family: Jordan !important;}
+
+.fontLebanon { font-family: Lebanon !important;}
+
+.fontPrint { font-family: LinerPrint !important;}
+
+.fontXL { font-family: LinerXL !important;}
+
+.fontLoopI { font-family: LoopI !important;}
+
+.fontLucindaH { font-family: LucindaH !important;}
+
+.fontOlcen { font-family: Olcen !important;}
+
+.fontOldEnglish { font-family: OldEnglish !important;}
+
+.fontPald { font-family: Pald !important;}
+
+.fontPristina { font-family: Pristina !important;}
+
+.fontQatar { font-family: Qatar !important;}
+
+.fontRadzad { font-family: Radzad !important;}
+
+.fontRage { font-family: Rage !important;}
+
+.fontSahafa { font-family: Sahafa !important;}
+
+.fontSamra { font-family: Samra !important;}
+
+.fontSprn { font-family: Sprn !important;}
+
+.fontTehran { font-family: Tehran !important;}
+
+.fontTunisia { font-family: Tunisia !important;}
+
+.fontTypographerHv { font-family: TypographerHv !important;}
+
+.fontUltra { font-family: Ultra !important;}
+
+.fontVanilla { font-family: Vanilla !important;}
+
+.fontWedding { font-family: Wedding !important;}
+
+.fontYangtze { font-family: Yangtze !important;}
+
+.fontZolano { font-family: Zolano !important;}
+
